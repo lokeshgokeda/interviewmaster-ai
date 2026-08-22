@@ -1,0 +1,19 @@
+{
+  "name": "interviewmaster-ai-vercel",
+  "version": "2.0.0",
+  "private": true,
+  "description": "InterviewMaster AI — Vercel + Neon PostgreSQL + JWT authentication + cloud progress sync.",
+  "engines": {"node": ">=20"},
+  "scripts": {
+    "dev": "vercel dev",
+    "start": "vercel dev"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^1.0.2",
+    "bcryptjs": "^3.0.2",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "vercel": "^48.4.0"
+  }
+}
